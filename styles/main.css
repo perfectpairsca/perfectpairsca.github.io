@@ -1,15 +1,43 @@
 
 body 
 {
-	background-image: url("../images/oils-1280p.jpg") top right no-repeat;
-	background-attachment:fixed;
+	background-color: #10455A;	
 	color: #F3F7F0;
-	font-family: 'Open-Sans', sans-serif;	
+	font-family: 'Open-Sans', sans-serif;
+}
+
+#header
+{
+	height: 12em;
+	background-color: white;	
+	
+}
+
+#divContact{
+	position: relative;
+	display: block;
+	margin-top: 2em;
+	float:right;
+	color: #636142;
+	font-size: 0.9em;	
+}
+
+#logo
+{
+	height: 10em;
+	margin-left: 20em;
+	margin-top: 1em;
+}
+
+#imgBanner
+{
+	background: url("../images/oils-1280p.jpg");
+	height: 25em;
 }
 
 #mainContent
 {
 	margin: auto;
 	width: 60%;
-	background-color: #10455A;	
+	background-color: rgba(16, 69, 90, 1);	
 }
