@@ -1,0 +1,15 @@
+
+body 
+{
+	background-image: url("../images/oils-1280p.jpg") top right no-repeat;
+	background-attachment:fixed;
+	color: #F3F7F0;
+	font-family: 'Open-Sans', sans-serif;	
+}
+
+#mainContent
+{
+	margin: auto;
+	width: 60%;
+	background-color: #10455A;	
+}
