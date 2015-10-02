@@ -1,8 +1,7 @@
 
 body 
-{
-	background-color: #10455A;	
-	color: #F3F7F0;
+{	
+	background-color: white;
 	font-family: 'Open-Sans', sans-serif;
 }
 
@@ -14,30 +13,88 @@ body
 }
 
 #divContact{
+	
 	position: relative;
 	display: block;
 	margin-top: 2em;
+	margin-right: 8em;
 	float:right;
 	color: #636142;
-	font-size: 0.9em;	
+	font-size: 0.9em;
 }
 
 #logo
 {
 	height: 10em;
-	margin-left: 20em;
+	margin-left: 8em;
 	margin-top: 1em;
 }
 
-#imgBanner
+#divImageBanner
 {
 	background: url("../images/oils-1280p.jpg");
 	height: 25em;
 }
 
+#headline{
+	
+	display: block;
+	text-rendering: optimizeLegibility;
+	text-shadow: rgba(0, 0, 0, 0.701961) 0px 1px 2px;
+	-webkit-font-smoothing: antialiased;
+	text-align: left;
+	color: white;
+	font-size: 3em;	
+	position: relative;
+	float: right;
+	margin-left: 8em;
+	width: 20em;
+	margin-top: 10%;
+}
+
+#mainContentContainer{
+	
+	background-color: #10455A;
+	overflow: hidden;
+}
+
 #mainContent
-{
-	margin: auto;
+{	
+	color: #F3F7F0;
+	margin: 2em auto;
 	width: 60%;
-	background-color: rgba(16, 69, 90, 1);	
+	font-size: 1em;		
+}
+
+.contentHeader {
+	font-size: 1.5em;
+	text-rendering: optimizeLegibility;
+	text-shadow: rgba(0, 0, 0, 0.701961) 0px 1px 2px;
+	text-align: center;
+	margin: 0.5em 0em;
+	horizontal-align: center;
+}
+
+.centerContent {
+	text-align:left;
+	margin: auto;
+	width: 20%;
+	line-height: 2em;	
+}
+
+#mainContent .centerContent ul {
+	margin-left: 1.5em;
+	font-size: 0.85em;
+}
+
+#divFooter
+{
+	background-color: #636142;
+	height: 3em;
+}
+
+#divFooter p{
+	color: #F3F7F0;
+	margin-left: 8em;
+	padding-top: 1em;
 }
